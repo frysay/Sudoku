@@ -1,0 +1,6 @@
+controller\SudokuController.class
+controller\SudokuController$SudokuDeadLockGameException.class
+model\Sudoku.class
+controller\SudokuController$SudokuMoveNotAllowed.class
+sudoku\SudokuApplication.class
+utils\SudokuUtils.class
