@@ -13,7 +13,17 @@ import utils.SudokuUtils;
 @RestController
 public class SudokuController {
 
-	Sudoku sudoku = new Sudoku();
+	private Sudoku sudoku = new Sudoku();
+
+	// Just for tests purposes
+	public Sudoku getSudoku() {
+		return sudoku;
+	}
+
+	// Just for tests purposes
+	public void setSudoku(Sudoku sudoku) {
+		this.sudoku = sudoku;
+	}
 
 	@RequestMapping("/sudoku")
 	@ResponseBody

@@ -42,6 +42,22 @@ public class Sudoku {
 		logger.debug("Sudoku table initialized");
 	}
 
+	public int[] getLastMove() {
+		return lastMove;
+	}
+
+	public void setTable(int[][] table) {
+		this.table = table;
+	}
+
+	public void setValuesLeft(int valuesLeft) {
+		this.valuesLeft = valuesLeft;
+	}
+
+	public void setLastMove(int[] lastMove) {
+		this.lastMove = lastMove;
+	}
+
 	public int[][] getTable() {
 		return this.table;
 	}
